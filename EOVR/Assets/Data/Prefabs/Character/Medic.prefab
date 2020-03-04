@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1715760420840976}
+  m_IsPrefabParent: 1
+--- !u!1 &1715760420840976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4187501058640966}
+  - component: {fileID: 114884985382881214}
+  - component: {fileID: 114987748930704832}
+  - component: {fileID: 114662146716740404}
+  m_Layer: 0
+  m_Name: Medic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4187501058640966
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715760420840976}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114662146716740404
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715760420840976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3adce8cbd0d0fd4fb515abc68e7bc92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterPortrait: {fileID: 21300000, guid: e6b94f21a5d47da4c87dae1a0af0bf86, type: 3}
+--- !u!114 &114884985382881214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715760420840976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64324a1ea71c2f64d9cd4a909d238d34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicalAtk: 0
+  magicAtk: 0
+  physicalDef: 0
+  magicDef: 0
+  characterName: 
+  characterClass: 3
+  classType: 0
+  level: 10
+  nextLevelNeedExp: 0
+  nowExp: 0
+  currentHp: 0
+  currentTp: 0
+  increaseAttackbySkill: 1
+  increaseAttackbyBuff: 1
+  independentIncreaseRate: 1
+  increaseDefensebySkill: 1
+  increaseDefensebyBuff: 1
+  weapon: 0
+  armor: 0
+  subArmor: 0
+  accessory: 0
+  partyPosition: 3
+  isParty: 0
+  isBattle: 0
+  isDown: 0
+--- !u!114 &114987748930704832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715760420840976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f00575f08abf9e4f9a1b276754b17ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
